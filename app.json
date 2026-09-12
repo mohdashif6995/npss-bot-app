@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "NPSS Dr.Ashif",
+    "slug": "npss-dr-ashif",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1b5e20"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTabletMode": true,
+      "bundleIdentifier": "com.mohdashif.npssbot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1b5e20"
+      },
+      "package": "com.mohdashif.npssbot"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "NPSS Dr.Ashif - National Pest Surveillance System Mobile App for Farmers",
+    "privacy": "public"
+  }
+}
