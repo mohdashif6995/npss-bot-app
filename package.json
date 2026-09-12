@@ -1,0 +1,33 @@
+{
+  "name": "npss-dr-ashif",
+  "version": "1.0.0",
+  "description": "NPSS Dr.Ashif - National Pest Surveillance System Mobile App",
+  "main": "index.js",
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "start": "expo start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.0",
+    "@react-navigation/native": "^6.1.6",
+    "@react-navigation/bottom-tabs": "^6.5.8",
+    "@react-navigation/stack": "^6.3.16",
+    "react-native-screens": "^3.25.0",
+    "react-native-safe-area-context": "^4.7.2",
+    "react-native-gesture-handler": "^2.13.1",
+    "react-native-reanimated": "^3.5.0",
+    "axios": "^1.5.0",
+    "react-native-vector-icons": "^10.0.0",
+    "moment": "^2.29.4",
+    "expo": "^49.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.2",
+    "jest": "^29.7.0",
+    "babel-jest": "^29.7.0"
+  }
+}
